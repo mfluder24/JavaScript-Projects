@@ -8,3 +8,4 @@ function Func2() { //defining a function and giving it a name
     sentence += "The Final Frontier";
     document.getElementById("Concatenate").innerHTML=sentence; //placing value of variable into HTML elementFromPoint with "Concatenate" id 
 }
+
