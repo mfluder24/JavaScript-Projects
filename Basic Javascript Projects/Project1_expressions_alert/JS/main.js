@@ -24,3 +24,10 @@ document.write("<br>"); //inserting a break tag
 
 document.write(20 + 4); //Displaying an expression
 
+function redRage(x) {
+    x.style.color = "red";
+}
+
+function noRage(x) {
+    x.style.color = "black";
+}
