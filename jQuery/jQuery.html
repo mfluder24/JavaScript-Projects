@@ -8,8 +8,8 @@
     </head>
     
     <script>
-        $(document).ready(function() {
-            $("html").append(
+        $(document).ready(function() { //defining a function in jQuery
+            $("html").append( //appending the HTML tag
                 "<body>\
                     <div id='container'>\
                         <div id='inner'>\
@@ -21,18 +21,19 @@
                     </div>\
                 </body>"    
             );
-        $("#2").css({"color":"red"});
-        $("#3").click(function() {
-            $("h1").hide();
+        $("#2").css({"color":"red"}); //using css to change p id=2 to red
+        $("#3").click(function() { //defining the click function in jQuery
+            $("h1").hide(); //hiding the h1 element upon clicking Paragraph 3
         });
-        $("input").keydown(function(event) {
-            $("#whi").html("Key: "+ event.which);
+        $("input").keydown(function(event) { //defining a function in jQuery
+            $("#whi").html("Key: "+ event.which); //displaying which key has been pressed
         });
-        $("#bye").hide("slow");
+        $("#bye").hide("slow"); //using hide method to hide an element
     });          
     </script>
-    <style>
-        #whi {
+    
+    <style> 
+        #whi { 
             margin: 20px;
             width: 80px;
             height: 60px;
